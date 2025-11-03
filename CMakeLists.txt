@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 idf_build_set_property(MINIMAL_BUILD ON)
-project(esp-s3-clean)
+project(esp32-s3-wroom-1-N16R8)
