@@ -1,4 +1,4 @@
 idf_component_register(
   SRCS "main.c"
   INCLUDE_DIRS "."
-  REQUIRES print_system_info)
+  REQUIRES wi_fi_access_point)

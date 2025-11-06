@@ -1,10 +1,11 @@
+#include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "print_system_info.h"
 #include "sdkconfig.h"
+#include "wi_fi_access_point.h"
 #include <stdio.h>
 
 void app_main(void)
 {
-  xTaskCreate(print_system_info, "print_system_info", 2048, NULL, 5, NULL);
+  wi_fi_access_point_init();
 }
